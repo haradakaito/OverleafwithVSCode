@@ -14,7 +14,7 @@ OverLeafで作成したプロジェクトをVSCodeで参照する際に，プロ
 画面右上の「Network」タブをクリックし，フィルター欄に「/project」と入力します．  
 表示された結果の
 
-![説明画像](https://github.com/haradakaito/LaTeX_OverLeaf_VSCode/assets/75819611/6863fe0c-000f-4136-afe5-5ae1f5ea35fd)
+![説明画像](https://github.com/haradakaito/LaTeX_OverLeaf_VSCode/assets/75819611/c8435ccb-4c78-46c3-a3b0-c0d36bbf5a58)
 
 ## VSCode側の設定
 
