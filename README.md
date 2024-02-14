@@ -12,7 +12,7 @@ VSCodeでは，ここのプロジェクトに対してリモートワークス�
 OverLeafで作成したプロジェクトをVSCodeで参照する際に，プロジェクトのCookieを求められます．  
 先ほど作成したプロジェクトの画面で「F12キー」，または「右クリック」>「検証」で開発者ツールを開きます．  
 画面右上の「Network」タブをクリックし，フィルター欄に「/project」と入力します．  
-表示された結果の
+以下の画像の手順で，プロジェクトのCookie情報を確認します．  
 
 ![説明画像](https://github.com/haradakaito/LaTeX_OverLeaf_VSCode/assets/75819611/c8435ccb-4c78-46c3-a3b0-c0d36bbf5a58)
 
