@@ -16,7 +16,11 @@
 　それでは，**VSCodeでOverleafを操作し，LaTeXで文書作成を行うまでの手順を説明**します．
 　※以降の説明は，**VSCodeが既にインストールされていることを前提**として進んでいきます．インストールしていない人は，まずVSCodeをインストールしてください．
 ### 3.1 OverLeafサインアップ
-　まず，Overleafの公式ページからサインアップを行います．サインアップは，メールアドレスとパスワードを設定し，メールアドレスに届くコードで認証するだけなので簡単です．
+　まず，**Overleafの公式ページからサインアップ**を行います．
+ 
+ https://ja.overleaf.com/register
+ 
+ サインアップは，メールアドレスとパスワードを設定し，メールアドレスに届くコードで認証するだけなので簡単です．
 　その後，有料プランへの加入を勧められますが，無料で使用したい人は「No, I don't need these」で丁重にお断りしましょう．
  
  ![スクリーンショット (30).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3477007/1277d8a9-c094-c41b-9d6c-2639372b80ac.png)
@@ -44,25 +48,25 @@
 
 ![スクリーンショット (36).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3477007/53ffb228-1057-7e36-591b-1acaac3672b3.png)
 
-　ログインするための手段の選択が求められますが，Cookiesを用いたログイン方法「Login with Cookies」を選択してください．すると，Cookies情報の入力が求められますので，自身のOverleafのCookies情報を入力します．
+　ログインするための手段の選択が求められますが，Cookiesを用いたログイン方法「**Login with Cookies**」を選択してください．すると，Cookies情報の入力が求められますので，自身のOverleafのCookies情報を入力します．
 
 - **OverleafのCookies情報の取得**
-OverleafのCookies情報取得方法を説明します．まず，Overleafのホーム画面にアクセスします．
+OverleafのCookies情報取得方法を説明します．まず，**Overleafのホーム画面にアクセス**します．
 
 ![スクリーンショット (37).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3477007/d9b03bfb-6881-a3eb-dc96-f46183e507f6.png)
 
-　そのページの管理者画面を開きます(F12キーを押す，または右クリックで「検証」)．管理者画面内の「Network」タブをクリックし，検索欄に「/project」と入力します．
+　そのページの**管理者画面を開きます(F12キーを押す，または右クリックで「検証」)**．管理者画面内の「Network」タブをクリックし，検索欄に「/project」と入力します．
 
 ![スクリーンショット (38).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3477007/036a1548-d2de-5c0c-15d2-c939e8dcabc2.png)
 
-　この画面のまま，ページを更新すると，<project>という名称のRequestURLを含む通信が出てきます．その中の<projectドキュメント>をクリックし，<Response Headers>の中にある<Set-Cookie>に記載されている文字列をコピーしてください．
+　この画面のまま，**ページを更新**すると，<project>という名称のRequestURLを含む通信が出てきます．その中の<projectドキュメント>をクリックし，<Response Headers>の中にある<Set-Cookie>に**記載されている文字列をコピー**してください．
 
 ![画像1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3477007/6f5a16b5-1dbf-0c14-77ea-cc1103c34b28.png)
 
 　以上で，OverleafのCookies情報の取得が完了しました．最後に，このCookies情報をOverleaf Workshopで入力することでVSCodeでOverleafにログインすることができます，
 
-## Qiita記事
-https://qiita.com/muumin_0525/items/26ae779db23a1c862158
+## GitHubリポジトリ
+https://github.com/haradakaito/LaTeX_OverLeaf_VSCode?tab=readme-ov-file
 
 
 
