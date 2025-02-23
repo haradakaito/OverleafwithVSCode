@@ -113,5 +113,3 @@ https://ja.overleaf.com/project
 特に，LaTeX未経験の方や，環境構築が面倒だと感じて敬遠している方にとって，LaTeXを触るきっかけになれば幸いです．
 
 ※本記事で説明した内容は，Overleaf Workshopの公式Gitリポジトリで詳細に記述されています（全て英語ですが）．気になる部分や説明で分かりにくかった部分については，公式ドキュメントを確認することを強く推奨します．
-
-https://github.com/iamhyc/Overleaf-Workshop
